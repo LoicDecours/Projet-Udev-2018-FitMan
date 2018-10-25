@@ -1,0 +1,113 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: Roboto, Arial, sans-serif;
+	font-size: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-height: 100vh;
+	text-align: justify;
+	background-color: black;
+}
+.TexteAside{
+	color: rgb(255,102,0);
+	font-size: 13px;
+	margin-top: 5px;
+	font-weight: bold;
+}
+.Liens{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	top: 314px;
+	width: 40px;
+	height: 125px;
+	position: fixed;
+	border: rgb(255,102,0) solid;
+	border-radius: .3em;
+	background-color: black;
+}
+.LiensImages{
+	width: 30px;
+	height: 30px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.Header{
+	display: flex;
+	height: 250px;
+	background-image: url(images/pompe.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: auto;
+	justify-content: space-between;
+}
+.Logo{
+	display: flex;
+	max-width: 15%;
+	padding: 10px;
+}
+.Connexion{
+	position: fixed;
+	right: 10px;
+}
+.Input{
+	
+}
+.TextInscription{
+	position: fixed;
+	right: 10px;
+	top: 25px;
+	font-size: .8em;
+	color: lightgrey;
+	text-decoration: none;
+}
+.Navigation{
+}
+.Menu{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	list-style-type: none;
+}
+.MenuLien{
+	display: flex;
+	padding: 10px 20px;
+	text-decoration: none;
+	color: black;
+	margin: 5px;
+	border-radius: 8px;
+	background-color: rgb(255,102,0);
+}
+.MenuLien:hover{
+	color: white;
+}
+.Sidebar{
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	list-style-type: none;
+}
+.Contenu{
+	display: flex;
+	margin: 60px;
+	color: rgb(255,102,0);
+	justify-content: space-between;
+}
+.LienInscription{
+	text-decoration: none;
+	color: rgb(255,102,0);
+}
+.ImgFitProf{
+	width: 23%;
+	height: 23%;
+}
+.Footer{
+	text-align: center;
+	color: rgb(255,102,0);
+	font-size: 0.7em;
+	padding: .5em;
+}
